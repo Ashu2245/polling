@@ -1,145 +1,183 @@
-// ****************************************************
+.login {
+    padding: 80px;
+}
+
+.wrapper {
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #4285F4;
+}
+
+table {
+    background: #dd5;
+    background: #34495E;
+    color: #fff;
+    overflow: hidden;
+}
+
+th {
+    color: #DDDD57;
+}
 
 body {
-    background-color: #80d7ff;
+    background-color: #009688;
     font-family: sans-serif;
 }
 
-.btn btn-primary button:hover {
-    background-color: #66CCFF;
-    border: 3px solid #70CCFF;
-    cursor: pointer;
-    align: center;
+.head {
+    font-size: 21px;
+}
+
+.addlogin {
+    padding: 55px 600px;
+    line-height: 34px;
+}
+
+.span3 {
+    margin-left: 10px;
+    color: blue;
+    font-size: 18px;
+}
+
+.addwell {
+    padding: 116px 612px 300px 594px;
+    background-color: #6B5094;
+    line-height: 38px;
+}
+
+.buttonleft {
+    padding: 18px 0;
+}
+
+.pollbutton {
+    padding: 19px 0 0;
+}
+
+.pollvbutton {
+    padding: 7px 0 20px 25px;
+}
+
+.pollcan {
+    padding: 2px 0 0 25px;
+}
+
+.pollcancel {
+    padding-left: 21px;
+    float: left;
+}
+
+.buttonlogin {
+    padding-top: 20px;
 }
 
 h2 {
+    color: white;
     text-align: center;
 }
-// *******************Polling CSS Main *********************************
-.main {
-    width: 40%;
-    margin: 70px auto;
-    border-top: 2px solid #07cbc9;
-    border-left: 2px solid #07cbc9;
-    border-radius: 4px;
-    background-color: white;
-    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+
+.link {
+    padding: 11px;
+    color: #DDDD57;
+    font-size: x-large;
 }
 
-.h2 {
-    padding: 20px;
-    background-color: #f2f2f3;
-    color: black;
-    padding-left: 55px;
-    font-size: 35px;
+.login_add {
+    background-color: #34495E;
+}
+
+#myApp {
+    background-color: #009688;
+}
+
+.text {
+    text-align: center;
+}
+
+.div_color {
+    background-color: #4285F4;
+}
+// *******************************************************
+// *******************GlobalNav************************************************
+
+styles.wrapper {
+    padding: 30px 20px;
+    overflow: 'hidden';
+    background: hsl(210, 85%, 50%);
+    color: #fff;
+}
+
+styles.link {
+    padding: 11px;
+    color: #fff;
+    font-weight: 200;
+}
+
+styles.activeLink {
+    padding: 11px;
+    color: #fff;
+    font-weight: 200;
+    background: #fff;
+    color: hsl(210, 85%, 50%);
+}
+// ****************************************************************
+
+.polladd {
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.optTitle {
+    font-size: 12px;
+    color: #07cbc9;
+    font-weight: bold;
+}
+
+.errortop {
+    color: red;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 .form {
-    width: 120%;
+    width: 80%;
     margin: 0 auto;
 }
 
-.input[type="text"] {
-    width: 95%;
-    padding: 15px 10px;
+.pollform {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vote {
+    float: right;
+    margin-right: 25px;
+    text-align: center;
+    //border-radius: 100%;
+    background-color: yellow;
+    width: 20%;
+}
+
+.input[type="text"]:focus {
+    border-bottom: 2px solid #07cbc9;
+}
+
+.hiddenInput {
+    width: 20%;
+    padding: 5px 10px;
     border: none;
     outline: none;
     border-radius: 3px;
-    font-size: 17px;
-    border-bottom: 1px solid gray;
-    letter-spacing: 1px;
+    font-size: 15px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.input[type="password"] {
-    width: 95%;
-    padding: 15px 10px;
-    border: none;
-    border-bottom: 1px solid gray;
-    outline: none;
-    border-radius: 3px;
-    font-size: 17px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+.hiddenInput:focus {
+    border-bottom: 2px solid #07cbc9;
+    border-top: 2px solid #07cbc9;
 }
-
-.input[type="submit"] {
-    margin: 30px 0 50px;
-    padding: 35px 0;
-    border: none;
-    width: 100%;
-    outline: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #fc3955;
-    border-radius: 3px;
-    transition: 0.5s all;
-    cursor: pointer;
-    webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-
-.input[type="submit"]:hover {
-    background-color: #07cbc9;
-}
-
-.input[type="button"] {
-    margin: 30px 0 50px;
-    padding: 15px 0;
-    border: none;
-    width: 100%;
-    outline: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #fc3955;
-    border-radius: 3px;
-    transition: 0.5s all;
-    cursor: pointer;
-    webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-
-.input[type="button"]:hover {
-    background-color: #07cbc9;
-}
-
-.reactbody {
-    background-color: #efcd8d;
-    width: 100%;
-}
-
-body {
-    padding: 80px;
-    margin: 10px 0 50px;
-    background-color: #e6f7ff;
-}
-
-.userlist {
-    background-color: white;
-    padding: 0 90px 90px;
-}
-
-.span {
-    background-color: #f2f2f3;
-    color: green;
-    padding-left: 35%;
-    font-size: 35px;
-}
-
-.thead {
-    background-color: #1d18a3;
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-}
+// ###########################################################
